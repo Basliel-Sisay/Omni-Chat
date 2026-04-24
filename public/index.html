@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omni-Chat</title>
+  <link rel="stylesheet" href="chat.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script defer src="client.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <h1>Omni-Chat</h1>
+    </header>
+    <main id="messages">
+      <ul id="messageList"></ul>
+    </main>
+    <footer>
+      <input id="input" type="text" placeholder="Type a message...">
+      <button id="send">Send</button>
+    </footer>
+  </div>
+</body>
+</html>
